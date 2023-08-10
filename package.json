@@ -53,6 +53,8 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "jest-cucumber": "^3.0.1",
+    "puppeteer": "^18.1.0"
   }
 }

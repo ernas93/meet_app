@@ -21,7 +21,7 @@ FEATURE 2: SHOW/HIDE AN EVENT'S DETAILS
 As a user I should be able to show or hide event details, after I have selected a city I wanted to look up the events for.
 
 - **Scenario 1:** An event element is collapsed by default
-  - **Given** user has searched for events regardless to the chosen city or not, **when** the user recieves the full list of events (specific for the city or all events), **then** all events will colapse by default.
+  - **Given** the user first opens the app **when** the user recieves the full list of events (specific for the city or all events), **then** all events will colapse by default.
 - **Scenario 2:** User can expand an event to see its details
   - **Given** the user gets a list of events, **when** a user selects an event's details, **then** the details will show up for that choosen event.
 - **Scenario 3:** User can collapse an event to hide its details
@@ -32,7 +32,7 @@ FEATURE 3: SPECIFY NUMBER OF EVENTS
 As a user, I should be able to specify the number of displayed events, after I have selected the number of displayed events.
 
 - **Scenario 1:** When user hasn't specified a number, 32 is the default number.
-  - **Given** the user hasn't specified or filtered the number of events, **when** he chooses to display events in a specific city or all events, **then** the default number of displayed events will be 32.
+  - **Given** the user hasn't specified or filtered the number of events, **when** the user sees the list of events **then** the default number of displayed events will be 32.
 - **Scenario 2:** User can change the number of events they want to see.
   - **Given** the user has events displayed, **when** the user chooses to change the number of events displayed, **then** the number of events displayed will update to the number the user selected.
 
