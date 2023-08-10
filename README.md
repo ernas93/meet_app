@@ -21,7 +21,7 @@ FEATURE 2: SHOW/HIDE AN EVENT'S DETAILS
 As a user I should be able to show or hide event details, after I have selected a city I wanted to look up the events for.
 
 - **Scenario 1:** An event element is collapsed by default
-  - **Given** user has searched for events regardless to the chosen city or not, **when** the user recieves the full list of events (specific for the city or all events), **then** all events will colapse by default.
+  - **Given** the user first opens the app **when** the user recieves the full list of events (specific for the city or all events), **then** all events will colapse by default.
 - **Scenario 2:** User can expand an event to see its details
   - **Given** the user gets a list of events, **when** a user selects an event's details, **then** the details will show up for that choosen event.
 - **Scenario 3:** User can collapse an event to hide its details
