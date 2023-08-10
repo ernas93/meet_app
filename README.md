@@ -32,7 +32,7 @@ FEATURE 3: SPECIFY NUMBER OF EVENTS
 As a user, I should be able to specify the number of displayed events, after I have selected the number of displayed events.
 
 - **Scenario 1:** When user hasn't specified a number, 32 is the default number.
-  - **Given** the user hasn't specified or filtered the number of events, **when** he chooses to display events in a specific city or all events, **then** the default number of displayed events will be 32.
+  - **Given** the user hasn't specified or filtered the number of events, **when** the user sees the list of events **then** the default number of displayed events will be 32.
 - **Scenario 2:** User can change the number of events they want to see.
   - **Given** the user has events displayed, **when** the user chooses to change the number of events displayed, **then** the number of events displayed will update to the number the user selected.
 
