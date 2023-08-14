@@ -1,3 +1,38 @@
+## Meet App
+
+This is an app built using React on the frontend, and AWS Lambda on the backend. It displays a list of events, which is fetching the events from Google Calendar API, that can be filtered by city or number of events.
+
+## Prerequisites
+
+- Install Node.js
+
+## Installation
+
+1. Clone the repository.
+2. Navigate to the project directory in the terminal.
+3. Run `npm install` to install the necessary dependencies.
+
+## Technologies Used
+
+- React
+- Jest
+- React testing library
+- Puppeteer
+
+## Development server
+
+Run `npm run start` for a dev server. Navigate to `http://localhost:3000/meet_app`. The application will automatically reload if you change any of the source files.
+
+## Build
+
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Deployment
+
+Run `npm run deploy` to deploy to github pages
+
+
+
 ## Meet App and their user stories and features
 
 FEATURE 1: FILTER EVENTS BY CITY
